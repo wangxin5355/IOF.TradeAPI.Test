@@ -1,0 +1,10 @@
+{
+  "bankID": "string",
+  "bankAccount": "string",
+  "tradeAmount": 0,
+  "fundPassword": "string",
+  "bankPassword": "string",
+  "tradeToken": "string",
+  "password": "string",
+  "clientIP": "string"
+}

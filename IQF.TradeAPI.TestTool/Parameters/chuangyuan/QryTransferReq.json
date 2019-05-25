@@ -1,0 +1,8 @@
+{
+  "bankID": "string",
+  "startDate": 0,
+  "endDate": 0,
+  "tradeToken": "string",
+  "password": "string",
+  "clientIP": "string"
+}

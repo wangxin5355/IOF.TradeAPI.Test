@@ -1,0 +1,13 @@
+{
+  "symbol": "string",
+  "exchange": "NONE",
+  "orderSide": "Buy",
+  "price": 0,
+  "quantity": 0,
+  "orderType": "LMT",
+  "offset": "None",
+  "source": "SendOrder",
+  "tradeToken": "string",
+  "password": "string",
+  "clientIP": "string"
+}

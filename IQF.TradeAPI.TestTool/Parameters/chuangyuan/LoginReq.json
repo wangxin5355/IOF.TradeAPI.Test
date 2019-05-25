@@ -1,0 +1,14 @@
+{
+  "BrokerID": null,
+  "AccountID": "10102925",
+  "Mac": "80:ad:16:db:7f:b7",
+  "PackType": "1007",
+  "SystemInfo": null,
+  "SysInfoIntegrity": null,
+  "EncrypKeyVersion": null,
+  "ExceptionFlag": null,
+  "ClientPort": 57934,
+  "TradeToken": "110a7fd00fae40c5a8a2841a1c91cea2",
+  "Password": "330312",
+  "ClientIP": "125.120.146.125"
+}

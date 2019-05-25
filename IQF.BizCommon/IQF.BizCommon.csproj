@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Connected Services\EntinfoServiceReference\**" />
+    <Compile Remove="packages\**" />
+    <Compile Remove="User\Entity\**" />
+    <EmbeddedResource Remove="Connected Services\EntinfoServiceReference\**" />
+    <EmbeddedResource Remove="packages\**" />
+    <EmbeddedResource Remove="User\Entity\**" />
+    <None Remove="Connected Services\EntinfoServiceReference\**" />
+    <None Remove="packages\**" />
+    <None Remove="User\Entity\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="BaseEnum.cs" />
+    <Compile Remove="Data\Entity\FilterWordEntity.cs" />
+    <Compile Remove="Data\Entity\HisSpotFuturesPriceEntity.cs" />
+    <Compile Remove="Data\Entity\IndexComponentEntity.cs" />
+    <Compile Remove="Data\Entity\SpotHisPriceEntity.cs" />
+    <Compile Remove="Data\Entity\VirtualVarietyEntity.cs" />
+    <Compile Remove="Data\FilterWordDao.cs" />
+    <Compile Remove="Data\HisSpotFuturesPriceDao.cs" />
+    <Compile Remove="Data\IndexComponentDao.cs" />
+    <Compile Remove="Data\SpotHisPriceDao.cs" />
+    <Compile Remove="User\VerifyCodeMgr.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="1.60.6" />
+    <PackageReference Include="SharpCifs.Std" Version="0.2.13" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\IQF.Framework\IQF.Framework.csproj" />
+  </ItemGroup>
+</Project>

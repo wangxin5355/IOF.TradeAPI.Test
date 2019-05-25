@@ -1,0 +1,7 @@
+{
+  "oldPassword": "string",
+  "newPassword": "string",
+  "tradeToken": "string",
+  "password": "string",
+  "clientIP": "string"
+}

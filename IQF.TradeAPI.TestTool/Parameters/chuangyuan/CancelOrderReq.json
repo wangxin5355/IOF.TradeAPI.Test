@@ -1,0 +1,8 @@
+{
+  "orderID": "string",
+  "exchange": "NONE",
+  "symbol": "string",
+  "tradeToken": "string",
+  "password": "string",
+  "clientIP": "string"
+}

@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IOF.TradeAPI.Test", "IOF.TradeAPI.Test\IOF.TradeAPI.Test.csproj", "{9FA24F4C-001E-4803-93CD-6BB8146F5B8C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IQF.Framework", "IQF.Framework\IQF.Framework.csproj", "{CC66B8C9-00E3-4EE8-A703-FAD1646BF863}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IQF.BizCommon", "IQF.BizCommon\IQF.BizCommon.csproj", "{26716AAD-DEA6-4CCD-A21E-6ED6E50AB813}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IQF.Trade.Core", "IQF.Trade.Core\IQF.Trade.Core.csproj", "{D654A7CA-677F-4788-AEF8-5B3204E1A0C4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IQF.TradeAccess", "IQF.TradeAccess\IQF.TradeAccess.csproj", "{529E5A51-0DF4-4D29-8CFE-9591240F7238}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IQF.Trade.ClientApi", "IQF.Trade.ClientApi\IQF.Trade.ClientApi.csproj", "{9AD534DD-47B6-472A-8F8C-ED8B64DFEC0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IQF.TradeAPI.TestTool", "IQF.TradeAPI.TestTool\IQF.TradeAPI.TestTool.csproj", "{E31CF8B6-2C2E-4295-955C-A3CEC9DDCD6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FA24F4C-001E-4803-93CD-6BB8146F5B8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FA24F4C-001E-4803-93CD-6BB8146F5B8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FA24F4C-001E-4803-93CD-6BB8146F5B8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FA24F4C-001E-4803-93CD-6BB8146F5B8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC66B8C9-00E3-4EE8-A703-FAD1646BF863}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC66B8C9-00E3-4EE8-A703-FAD1646BF863}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC66B8C9-00E3-4EE8-A703-FAD1646BF863}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC66B8C9-00E3-4EE8-A703-FAD1646BF863}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26716AAD-DEA6-4CCD-A21E-6ED6E50AB813}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26716AAD-DEA6-4CCD-A21E-6ED6E50AB813}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26716AAD-DEA6-4CCD-A21E-6ED6E50AB813}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26716AAD-DEA6-4CCD-A21E-6ED6E50AB813}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D654A7CA-677F-4788-AEF8-5B3204E1A0C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D654A7CA-677F-4788-AEF8-5B3204E1A0C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D654A7CA-677F-4788-AEF8-5B3204E1A0C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D654A7CA-677F-4788-AEF8-5B3204E1A0C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{529E5A51-0DF4-4D29-8CFE-9591240F7238}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{529E5A51-0DF4-4D29-8CFE-9591240F7238}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{529E5A51-0DF4-4D29-8CFE-9591240F7238}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{529E5A51-0DF4-4D29-8CFE-9591240F7238}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AD534DD-47B6-472A-8F8C-ED8B64DFEC0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AD534DD-47B6-472A-8F8C-ED8B64DFEC0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AD534DD-47B6-472A-8F8C-ED8B64DFEC0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AD534DD-47B6-472A-8F8C-ED8B64DFEC0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E31CF8B6-2C2E-4295-955C-A3CEC9DDCD6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E31CF8B6-2C2E-4295-955C-A3CEC9DDCD6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E31CF8B6-2C2E-4295-955C-A3CEC9DDCD6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E31CF8B6-2C2E-4295-955C-A3CEC9DDCD6D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79CF03CD-EB57-4D63-A75D-094715F94B3C}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IQF.BizCommon\IQF.BizCommon.csproj" />
+    <ProjectReference Include="..\IQF.Framework\IQF.Framework.csproj" />
+    <ProjectReference Include="..\IQF.TradeAccess\IQF.TradeAccess.csproj" />
+  </ItemGroup>
+
+</Project>
